@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "components/status-bar.css";
+@import "variables.css";
+@import "screens/login.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "screens/friends.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+@import "components/no-desktop.css";
+
+html, body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-feature-settings: 'liga';
+}
+
+body{
+    color: #2E363E;
+    height: 1000vh;
+}
+
+.main-screen{
+    padding: 0px var(--horizontal-space);
+}

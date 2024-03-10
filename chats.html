@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Kokoa Talk</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-half"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="header__title">Chats</h1>
+        <div class="header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <span><a href="#"><i class="fa-solid fa-gear fa-lg"></i></a></span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <a href="chat.html">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="data:image/png;base64,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"
+                        class="user-component__avatar">
+        
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">KokoaTalk</h4>
+                        <h6 class="user-component__subtitle">Please check My kokoa Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">21:22</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+        </a>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDAyMTBfODAg/MDAxNTgxMzA0MTE3ODMy.ACRLtB9v5NH-I2qjWrwiXLb7TeUiG442cJmcdzVum7cg.eTLpNg_n0rAS5sWOsofRrvBy0qZk_QcWSfUiIagTfd8g.JPEG.lattepain/1581304118739.jpg?type=w800"
+                     class="user-component__avatar">
+    
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Mr.President</h4>
+                    <h6 class="user-component__subtitle">Do you know Kimchi?</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">21:22</span>
+                <div class="badge">1</div>
+            </div>
+        </div>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-solid fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <div class="nav__notification2"></div>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="no-desktop">
+        <span>This site does not support UI for other than mobile users.</span>
+    </div>
+    <script src="https://kit.fontawesome.com/aa450fda84.js" crossorigin="anonymous"></script>
+</body> 
+</html>

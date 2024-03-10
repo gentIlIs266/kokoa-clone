@@ -1,0 +1,48 @@
+.more-screen .icon-row,
+.more-screen .second-icon-row{
+    margin-top: 40px;
+}
+
+.second-icon-row .icon-row__icon{margin-right: 57px;}
+
+.second-icon-row .icon-row__icon:first-child{padding-left: 2px;}
+
+.user-component__text h6 i{
+    color: #F96061;
+    margin-left: 7px;
+}
+
+.more-suggestions{
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: var(--main-border);
+}
+
+.more-suggestions__title{margin-bottom: 30px;}
+
+.more-suggestions__icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.more-suggestions__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    margin-right: 30px;
+}
+
+.more-suggestions__icon-img{
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon-img i{
+   color: white; 
+}
